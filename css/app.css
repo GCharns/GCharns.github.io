@@ -233,6 +233,11 @@ a:hover{
 }
 /**** 4.2 - Animations ****/
 
+.LogoSVG {
+    width: 350px;
+    height: 350px;
+}
+
 @keyframes offset{
     to {
         stroke-dashoffset: 0;
