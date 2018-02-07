@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en" dir="ltr">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>George Charnley</title>
-	<link rel="stylesheet" type="text/css" href="css/foundation.css">
-	<link rel="stylesheet" type="text/css" href="css/app.css">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>George Charnley</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <!-- wrapper -->
@@ -68,53 +69,64 @@
                     </div>
                 </div>
             </div>
-            <div class="head-middle flex-container align-middle text-center relative-block">
-              <div class="row align-center">
-                <div class="columns large-8 anim-children-start-bottom">
-                  <h1><span>Hi, I'm George Charnley, and this is my portfolio.</span></h1>
-                  <!-- <a class="scroll-down" href="#target"><span class="icon-chevron-down"></span></a> -->
-                  <a class="scroll-down" href="#target"><span><i class="fa fa-chevron-down" aria-hidden="true"></i></span></a>
-                </div>
-              </div>
-            </div>
         </header>
         <!-- /header -->
 
-        <!-- page-content -->
-        <div id="target" class="page-content">
-           <section class="des_work-section section">
-               <div class="row">
-                   <div class="columns medium-6 small-12 text-right no-padding-mob anim-children-start-bottom">
-                       <a href="STAR.html" class="work-box relative-block">
-                           <img class="img-container" src="images/Refugee_Rhythms_2.png" alt="">
-                           <div class="overlay flex-container">
-                              <h2 class="case-item-header">Student Action for Refugees</h2>
-                              <h4 class="case-item-type">Graphic Design</h4>
-                              <p class="case-item-text">----- <br>Designing marketing assets for charity events in Sheffield.</p>
-                            </div>
-                           </div>
-                       </a>
+      <!-- page-content -->
+      <div class="page-content">
+        <div class="row align-center text-center">
+          <div class="columns large-8 anim-children-start-bottom">
+            <div class="title-section">
+              <h1>Developing a Responsive Portfolio Site</h1>
+              <p>Front-End Web Development</p>
+            </div>
+          </div>
+        </div>
 
-                       <div class="columns">
-                        <a href="Portfolio Piece.html" class="work-box relative-block">
-                           <img class="img-container LogoSVG" src="images/Logo.gif" alt="">
-                           <div class="overlay flex-container text-right">
-                              <h2 class="case-item-header">Developing A Responsive Site</h2>
-                              <h4 class="case-item-type">A showcase of HTML, CSS and JS</h4>
-                            </div>
-                           </div>
-                       </a>
-           </section>
-           
-            <section class="simple-section section-medium anim anim-start-bottom">
-              <div class="row text-center">
-                <div class="column">
-                  <h2>Want to work together?</h2>
-                  <a class="button" href="des_contact.html">Get in touch</a>
-                </div>
-              </div>
+        <section class="section">
+          <div class="row align-center text-center">
+            <div class="columns large-6 anim-children-start-bottom">
+              <p>Key Goals: <br>
+              Create site map for portfolio content. <br>
+Create wireframes for UI at different screen sizes. <br>
+Choose an appropriate javascript framework for the portfolio site. <br>
+Develop HTML and CSS file for the landing page. <br>
+Implement breakpoints for different device sizes. <br>
+Implement hamburger menu overlay for mobile devices. <br>
+Implement animations and micro-interactions. <br> 
+Test the portfolio site across browsers and devices. <br>
+Host on Github Pages using existing domain name georgecharnley.com. <br>
+ </p>
+              <p>...</p>
+              <h3>Title 1</h3>
+              <p>Placeholder Text</p>
+            </div>
+          </div>
+        </section>   
+
+<!--         <div class="row align-center text-center">
+          <div class="columns large-6 no-padding-mob anim-children-start-bottom lightbox-images">
+            <section class="section-small">
+              <a href="#" class="img-link" data-bgsrc="images/IshitaGupta2.png">
+                <img src="images/IshitaGupta2.png" alt="">
+              </a>
             </section>
+          </div>
+        </div> -->
+
+
+
+
+        <section class="simple-section section-medium alt-bg">
+          <div class="row text-center">
+            <div class="column anim anim-start-bottom">
+              <a class="button" href="des_work-yir.html"><span>Next project</span></a>
+              <a class="button" href="des_contact.html">Get in touch</a>
+            </div>
+          </div>
+        </section>
       </div>
+      </div>     
       <!-- /page-content -->
 
       <!-- footer -->
@@ -143,7 +155,7 @@
           </div>
           <ul class="no-bullet">
               <li><a href="index.html">Design Portfolio</a></li>
-              <li><a href="des_about.html">Work Experience</a></li>
+              <li><a href="des_about.html">Work</a></li>
               <li><a href="des_contact.html">Contact</a></li>
           </ul>
       </nav>
@@ -151,9 +163,14 @@
   </div>
   <!-- /wrapper -->
 
-<script src="js/vendor/jquery.js"></script>
-<script src="js/vendor/what-input.js"></script>
-<script src="js/vendor/foundation.js"></script>
-<script src="js/app.js"></script>
+<div id="lightbox-container">
+    <button class="close-lightbox"><span class="fa fa-times"></span></button>
+    <div class="lightbox-content"></div>
+</div>
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
